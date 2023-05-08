@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = UINavigationController(rootViewController: CurrentWeatherVC(viewModel: CurrentWeatherViewModel()))
+        window?.rootViewController = UINavigationController(rootViewController: DashboardVC(viewModel: DashboardViewModel()))
         window?.makeKeyAndVisible()
     }
 

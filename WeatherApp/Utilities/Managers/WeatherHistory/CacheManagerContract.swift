@@ -7,6 +7,6 @@
 protocol CacheManagerContract {
     var userDefaults: UserDefaultsManagerContract { get }
     
-    var forecastHistory: [HistoryItem] { get set }
-    var currentWeatherHistory: [HistoryItem] { get set }
+    var forecastHistory: [ForecastHistoryItem] { get set }
+    var currentWeatherHistory: [CurrentWeatherHistoryItem] { get set }
 }
